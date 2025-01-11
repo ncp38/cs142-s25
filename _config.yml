@@ -20,6 +20,7 @@ author: Nate Phillips
 baseurl: '/cs142-s25' # the subpath of your site, e.g. /blog
 url: 'https://ncp38.github.io' # the base hostname & protocol for your site, e.g. http://example.com
 exclude: ["Gemfile", "Gemfile.lock", "LICENSE", "*/LeroyAndTheCookies.md"]
+logo: "/142logo.png"
 
 # Theme settings
 remote_theme: just-the-docs/just-the-docs@v0.4.0.rc1
