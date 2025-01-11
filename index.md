@@ -13,7 +13,7 @@ seo:
 {{ site.description }}
 {: .fs-6 .fw-300 }
 
-<button class="js-toggle-dark-mode dm-btn btn">Toggle Dark Mode</button>
+<!--<button class="js-toggle-dark-mode dm-btn btn">Toggle Dark Mode</button>-->
 
 {% if site.announcements %}
 {{ site.announcements.last }}
