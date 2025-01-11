@@ -9,6 +9,41 @@
 
 // custom labels
 
+@media (min-width: 66.5rem) {
+  .side-bar { width: 248px !important;}
+  .main { margin-left: 264px !important;}
+
+  .staffer div {
+    width: 200px !important;
+  }
+
+}
+
+@media (min-width: 50rem) {
+  .main { max-width: 100% !important;}
+
+  .site-header {
+    max-height: 150px !important;
+    height: 100% !important;
+  }
+
+  .staffer div {
+    max-width: 200px !important;
+  }
+
+  .search-input {
+    font-size: 0.9em !important;
+  }
+
+}
+
+@media (max-width: 50rem) {
+  .site-logo {
+    margin-left: 60px !important;
+    height: 60px !important;
+  }
+}
+
 .label-lecture { background-color: #779ECC; border-radius: 9px; vertical-align: top; }
 
 .label-lab { background-color: #198754; border-radius: 9px; vertical-align: top; }
