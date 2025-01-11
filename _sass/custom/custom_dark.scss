@@ -1,4 +1,8 @@
 
+.body {
+    background-color: #000000 !important;
+}
+
 .nav-list a {
     color: white !important;
 }
@@ -45,10 +49,6 @@ ol a {
 
 ::selection {
     background-color: #ffeb82 !important;
-}
-
-::body {
-    background-color: #000000 !important;
 }
 
 .dm-dark-btn {
