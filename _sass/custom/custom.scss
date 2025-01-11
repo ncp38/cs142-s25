@@ -44,6 +44,25 @@
   }
 }
 
+.aux-nav {
+  font-size: 0.9em !important;
+}
+
+.site-logo {
+  background-position: center !important;
+}
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.main-content-wrap {
+  max-width: 1100px !important;
+  margin-left: 20px !important;
+  margin-right: 20px !important
+}
+
 .label-lecture { background-color: #779ECC; border-radius: 9px; vertical-align: top; }
 
 .label-lab { background-color: #198754; border-radius: 9px; vertical-align: top; }
