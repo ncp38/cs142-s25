@@ -113,7 +113,7 @@ Mon, Feb 24
 : [**Extra Exam Practice Problems**](lectures/examPrep/extraResources.txt){: .label-button } 
 
 Wed, Feb 26
-: **Midterm I**{: .label .label-exam }
+: **Exam I**{: .label .label-exam }
 
 Fri, Feb 28
 Flex Day
@@ -218,7 +218,7 @@ Mon, Apr 14
 <!---:  [Midterm II Study Guide Solutions](lectures/examPrep/exam2-prac-solutions.pdf)--->
 
 Wed, Apr 16
-: **Midterm II**{: .label .label-exam }
+: **Exam II**{: .label .label-exam }
 
 Fri, Apr 18
 : Easter break!
