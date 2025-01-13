@@ -22,7 +22,7 @@ Fri, Jan 17
 : **Project**{: .label .label-proj } [**Project 1**](projects/proj1) (due Thu, Feb 1)
 
 Wed, Jan 22
-: **Lab**{: .label .label-lab }  [**Lab 1**](labs/lab1/)
+: **Lab**{: .label .label-lab }  [**Lab 1**](labs/lab1/) (due Fri, Jan 24 at 5:00 PM)
 
 Fri, Jan 24  
 : **Practice with Java.**   
@@ -42,7 +42,7 @@ Mon, Jan 27
 : **Reading**{: .label .label-reading} Liang 7.0-7.8 (arrays).
 
 Wed, Jan 29
-: **Lab**{: .label .label-lab } [**Lab 2**](labs/lab2/)
+: **Lab**{: .label .label-lab } [**Lab 2**](labs/lab2/) (due Fri, Jan 31 at 5:00 PM)
 
 Fri, Jan 31
 : **Object-Oriented Programming I**
@@ -60,7 +60,7 @@ Mon, Feb 3
 : **Project**{: .label .label-proj } [**Project 2**](projects/proj2) (due Tue, Feb 17)
   
 Wed, Feb 5
-: **Lab**{: .label .label-lab } [**Lab 3**](labs/lab3/)
+: **Lab**{: .label .label-lab } [**Lab 3**](labs/lab3/) (due Fri, Feb 7 at 5:00 PM)
 
 <!---:  A series of lectures to watch followed by in-class work!  
 :  [Lecture 1 - Debugging with Intellij](https://rhodes.instructuremedia.com/embed/75f01cbf-69f9-4c77-aeb7-96e19c0b19fa){: .label-button } 
@@ -80,7 +80,7 @@ Mon, Feb 10
 : **Reading**{: .label .label-reading} Liang 9.1-9.3, 9.5 (creating classes).
 
 Wed, Feb 12
-: **Lab**{: .label .label-lab } [**Lab 4**](labs/lab4/)
+: **Lab**{: .label .label-lab } [**Lab 4**](labs/lab4/) (due Fri, Feb 14 at 5:00 PM)
 
 Fri, Feb 14
 : **Creating Classes II**  
@@ -98,7 +98,7 @@ Mon, Feb 17
 : [**Exam Review (interpreting code)**](lectures/examPrep/midterm1-prac-additional.pdf){: .label-button } 
 
 Wed, Feb 19
-: **Lab**{: .label .label-lab } [**Lab 5**](labs/lab5/)
+: **Lab**{: .label .label-lab } [**Lab 5**](labs/lab5/) (due Fri, Feb 21 at 5:00 PM)
 
 Fri, Feb 21
 : **OO Design Practices**  
@@ -127,8 +127,7 @@ Mon, Mar 3
 : **Project**{: .label .label-proj } [**Project 3**](projects/proj3) (due Fri, Mar 21)
 
 Wed, Mar 5
-: **Lab**{: .label .label-lab } [**Lab 6**](labs/lab6/)
-
+: **Lab**{: .label .label-lab } [**Lab 6**](labs/lab6/) (due Fri, Mar 7 at 5:00 PM)
 
 Fri, Mar 7
 : **Recursion II**
@@ -153,7 +152,7 @@ Mon, Mar 17
 
 
 Wed, Mar 19
-: **Lab**{: .label .label-lab } [**Lab 7**](labs/lab7/)
+: **Lab**{: .label .label-lab } [**Lab 7**](labs/lab7/) (due Fri, Mar 21 at 5:00 PM)
 
 Fri, Mar 21
 : **Recursion IV**  
@@ -168,7 +167,7 @@ Mon, Mar 24
 : **Project**{: .label .label-proj } [**Project 4**](projects/proj4) (due Mon, Apr 7)
 
 Wed, Mar 26
-: **Lab**{: .label .label-lab } [**Lab 8**](labs/lab8/)
+: **Lab**{: .label .label-lab } [**Lab 8**](labs/lab8/) (due Fri, Mar 28 at 5:00 PM)
 <!---:  A series of lectures to watch followed by in-class work!  
 :  [Lecture 1 - Debugging with Intellij](https://rhodes.instructuremedia.com/embed/75f01cbf-69f9-4c77-aeb7-96e19c0b19fa){: .label-button } 
 :  [Lecture 2 - Design Choices](https://rhodes.instructuremedia.com/embed/c1553cb0-476d-45c3-b56c-277d4420e8da){: .label-button } 
@@ -207,7 +206,7 @@ Mon, Apr 7
 :  [Midterm II Study Guide](lectures/examPrep/exam2-prac.pdf) 
 
 Wed, Apr 9
-: **Lab**{: .label .label-lab } [**Lab 9**](labs/lab9/)
+: **Lab**{: .label .label-lab } [**Lab 9**](labs/lab9/) (due Fri, Apr 11 at 5:00 PM)
 : **Project**{: .label .label-proj } [**Project 5**](projects/proj5) (due Mon, Apr 21)
 
 Fri, Apr 11
@@ -230,7 +229,7 @@ Mon, Apr 21
 <!---: Consider **Project**{: .label .label-proj } [**Project 6**](projects/proj6) (due Sun, Apr 28)--->
 
 Wed, Apr 23
-: **Lab**{: .label .label-lab } [**Lab 10**](labs/lab10/)
+: **Lab**{: .label .label-lab } [**Lab 10**](labs/lab10/) (due Fri, Apr 25 at 5:00 PM)
 
 Fri, Apr 25
 : **Big O** 
