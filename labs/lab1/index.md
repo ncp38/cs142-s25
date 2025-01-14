@@ -7,9 +7,15 @@ parent: Labs
 
 ## Welcome to lab!
 
-Welcome to the lab section of COMP 142-today, we'll be focusing primarily on a group programming assignment (detailed below!).  Go ahead and pair up with a partner and begin working.  (If you can't find a partner, let me know, and I can help you pair up.)  This webpage should give you a good breakdown of what to expect from this lab.  Remember that **both partners** need to submit all assignment files and that everything is **due by tonight at midnight!**
+Welcome to the lab section of COMP 142-today, we'll be focusing primarily on a group programming assignment (detailed below!).  I'll have the list of partners up on the screen for this lab. Don't worry if you don't know someone's name; we're all still learning about each other! This webpage should give you a good breakdown of what to expect from this lab.  Remember that **both partners** need to submit all assignment files! I expect that everything will be finished on the day of the lab but as extra generosity (and to account for anything that might come up) the lab is **due by Friday at 5:00 PM.**
 
-I know you have experience with our half-lab half-lecture class from last week, but this is the first time you'll be doing graded work as part of your lab!  Throughout this lab and this class, please let me know if you have any questions!
+As a reminder, 15% of your lab grade is based on coming to the lab on time and working throughout the class period. If you're more than 5 minutes late or don't fully participate in the assignment, the highest grade you can make on the lab will be 85%. Make sure to budget enough time to get to class; being overly late to lab is disrespectful to your team and classmates and can cause disruption.  If you're not able to make it to class or have a conflict that causes you to run late, please let me know; as mentioned in the syllabus, policies on absences/grades emphasize communicating with me early and coming up with a plan.  
+
+If your partner hasn't arrived by the five-minute cutoff period and hasn't communicated, I will pair you with a new partner or group.
+
+If you ever have any questions, please ask me; this lab period is a way for me to provide quick feedback and answer your questions while you're programming.  If you finish the lab early, you're allowed to leave during the lab period as well.  
+
+I know you have experience with our half-lab half-lecture class from last week, but this is the first time you'll be doing graded work as part of your lab!  Throughout this lab and this class, please let me know if you have any questions-and happy coding!!
 
 ## Wheel of Fortune
 
