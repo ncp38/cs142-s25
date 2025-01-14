@@ -36,14 +36,14 @@ a new folder for this class work.
 
 ## Submitting the lab
 
-At the end of the lab session, upload the two files to canvas.  *Important!*  **Make sure both you and your partner submit the .java file and the question file.**  You can find these files by hovering over the file name 
+At the end of the lab session, upload the two files to canvas.  *Important!*  **You and your partner must submit both the .java file and the question file.**  You can find these files by hovering over the file name 
 in the top bar in IntelliJ and right-clicking (or ctrl+click for Macs) and selecting Open in -> Explorer (for Macs, you'll instead want to select Open in -> Finder).
 
 <img src="OpenIn.png" width=400 align=center>
 
--Each Java file you upload should include a header with an assignment title, your name, class number/period, and your teammates' names.  (Your names need to be listed in the questions.md file as well!)
+-Each Java file you upload should include **a header with your name, course name and section, and your teammates' names**.  (Your names need to be listed in the questions.md file as well!)
 
--Beneath this header include a short description of what you've changed in the file.
+-Beneath this header **include a short description of what you've changed** in the file.
 
 For example:
 
