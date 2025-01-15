@@ -6,7 +6,7 @@
 \begin{document}
 
 \begin{center}
-\large COMP 142 --- Computer Science II: Objected-Oriented Programming --- Spring 2024
+\large COMP 142 --- Computer Science II: Objected-Oriented Programming --- Spring 2025
 \\ \normalsize CRNs 13612/13613
 \end{center}
 
@@ -35,11 +35,11 @@ CS142 is the second course in the sequence for computer science majors or minors
 This course will use the Java programming language as the vehicle for exploration of fundamental computer science concepts. However, this is not a course about Java; it is about the structure and interpretation of computer programs.
 
 The particular Java environment that will be used in this course is available in the computer labs on Rhodes College campus, 
-and can also be installed on personal computers.
-You are free to develop the code for the assignments on your own computer using an environment of your choice. However, keep in mind that the source code that you submit for assignments must compile and run successfully using the environment from class.
+and can also be installed on personal computers.  If you intend to use your personal computer to develop programs for this class, you should have IntelliJ (or another IDE of your choice) installed by the end of the first day of class.
+Keep in mind that the source code that you submit for assignments must compile and run successfully using the environment from class.
 
 \item[Course Objectives:]
-At the end of this course, you should be able to
+At the end of this course, you should be able to:
 \begin{itemize} \setlength{\itemsep}{0em}\setlength{\parskip}{0pt}
 	\item Analyze problems of moderate complexity and solve such problems by writing code using the Java programming language,
 	\item Apply principles of good program design, especially the uses of data abstraction and modular program composition,
@@ -88,16 +88,19 @@ Programming projects & 40\% & \\
 Labs and homework & 20\% & \\
 Exam 1 & 12.5\% & Wednesday, Febuary 26, in class \\
 Exam 2 & 12.5\% & Wednesday, April 16, in class\\
-Comprehensive final exam & 15 & TBD \\
-&& TBD%\\
+Comprehensive final exam & 15 & Monday, May 5 at 8:30 AM \\
+&& Tuesday, May 6 at 1:00 PM%\\
 \end{tabular}
 
-Grades of A--, B--, C--, and D-- are guaranteed with final course grades of 90\%, 80\%,
+Grades of A--, B--, C--, and D-- are correlated with final course grades of 90\%, 80\%,
 70\%, and 60\%, respectively.  If your final course grade falls near a letter grade boundary,
 I may take into account participation, attendance, and/or improvement during the semester.
 
-Assignments are due at 11:59pm unless otherwise specified.  \textbf{Late work
-is unprofessional} and will generally be \textbf{penalized at a rate of 8\% per 24 hours late} or 1 point per day for lab and homework assignments.  If the assignment is submitted five days after it is due, it will not be accepted except in special cases, which might include sickness, injury, or other unforeseen events. In these situations, you should contact the professor as soon as is feasible to come up with a plan for submission.
+\item[Late Work and Makeup Assignments:]
+Assignments are due at 11:59pm except for lab assignments or unless otherwise specified.  \textbf{Late work
+is unprofessional} and will generally be \textbf{penalized at a rate of 8\% per 24 hours late} or 1 point per day for homework or lab assignments.  If the assignment is submitted five days after it is due, it will not be accepted except in special cases, which might include sickness, injury, or other unforeseen events. If you are aware of a conflict or issue that would prevent you from turning in your work on time, contact the professor before the assignment is due in order to come up with a plan for submission.  The earlier you can contact the professor to create and agree upon a plan, the better.
+
+Exams especially have a more specific late policy.  If you contact me ahead of time with an approved accomodation or specific need, it may be possible to adjust the date of the exam to an earlier time to accomodate your request.  In the case of an emergent situation such as a medical emergency or a death in the family, contact me urgently so that we can make a plan to address your situation and identify next steps.  Otherwise, exams are to be completed at the scheduled times; not taking exams on time can result in penalties on the exam, up to and including a 0 on the exam.
 
 \item[Office Hours:]
 In addition to regular office hours, I am often available immediately before or after class for 
@@ -123,11 +126,18 @@ Even with intentional focus and preparation, it is possible for issues to come u
 
 You are encouraged to form study groups with colleagues from the class. The goal of these groups is to clarify and solidify your understanding of the concepts presented in class, and to provide for a richer and more engaging learning experience. However, you are expected to turn in your own code that represents the results of your own effort. Even when working in groups, \textbf{each} partner is expected to turn in the assignment.
 
+\pagebreak
+
+\item[Getting Help:]
+Students can get help with their coursework several different ways.  The first place to reach out for help is to come to office hours.  Scheduled office hours are listed on Canvas, the class website, and this syllabus.  Additional meeting times are available by request.  You may also email the instructor.
+
+There will be tutoring available five nights a week specifically for this course.  More information will be provided once the tutoring schedule is determined.
+
 \item[Programming Assignments:]\
 
 \begin{itemize}\setlength{\itemsep}{0em}\setlength{\parskip}{0pt}
 	\item All programs assigned in this course must be written in Java, unless otherwise specified.  When turning in assignments,
-	submit only the Java source code files (\texttt{.java}); do not submit any files generated by the IDE (e.g., \texttt{.class}).	
+	submit only the Java source code files (\texttt{.java}) and any files necessary for your code to run (such as image files); do not submit any files generated by the IDE (e.g., \texttt{.class}). Also be careful to submit the file you have edited/filled in and not some other version of the file; always double-check that your files have been correctly uploaded before exiting a submission on Canvas.	\textbf{No credit will be given for missing or improper files submitted for assignments; if you choose to resubmit, the base penalty will be 50\% of the assignment.}
 			\item I recommend backing up your code somewhere as you're working on your assignments.  Computer
 		crashes or internet downtime are not valid excuses for missing a deadline.
 				
@@ -148,6 +158,8 @@ You are encouraged to form study groups with colleagues from the class. The goal
 \end{itemize}
 \end{itemize}
 
+\pagebreak
+
 \item[Rules for Completing Assignments Independently]\
 \begin{itemize}
         \item Unless otherwise specified, programming assignments handed in for this course are to be done \emph{independently}.  
@@ -162,7 +174,7 @@ You are encouraged to form study groups with colleagues from the class. The goal
                 schools enrolled in similar classes, or any code you find online or in print.  ``Similar or identical problem'' here should 
                 allow you to look at code that uses techniques applied in different situations that you can then 
                 adapt to your project.  However, if you find yourself copying-and-pasting code or directly transforming
-                code line by line to fit into your program, then that is considered plagiarism.  This includes code from the internet or from automated programs like ChatGPT; as such, be careful that your programs are your own work and aren't copied from other sources.\newline
+                code line by line to fit into your program, then that is considered plagiarism.  This includes code from the internet, automated programs like ChatGPT, or other people; as such, be careful that your programs are your own work and aren't copied from other sources.\newline
                               
                 Exception: You may help someone else debug their program, or seek assistance in debugging yours.  However, 
                 this requires the person writing the code being debugged to have made a good-faith attempt
@@ -212,17 +224,13 @@ Designing algorithms and writing the corresponding code is not a dry, mechanical
 
 \item[Class Conduct:] \
    \begin{itemize}\setlength{\itemsep}{0em}\setlength{\parskip}{0pt}
-   	\item I encourage everyone to participate in class.  Raise your hand if you have
-	a question or comment.  Please don't be shy about this; if you are confused about
-	something, it is likely that someone else is confused as well.
-		Teaching and learning is a partnership between the instructor and the students, and asking questions not only helps you understand the material, it also
-		helps me know what I'm doing right or wrong.
+   	\item I encourage everyone to participate in class!  I try to structure my classes around active learning and participation-I'd love to hear your feedback or comments through questions in class, office hour visits, and anonymous feedback oppurtunities.  Some of the learning exercises I most commonly use are thumbs-up/thumbs-down, practice problems/live board work, and demoing code walkthroughs.  If one of these strategies works better or worse for you, please let me know!
 			     \item When in class, only use cell phones or other electronic devices for classwork and keep
 the volume on silent.
 			          \item  If you cannot make it to class for whatever reason, make sure that
-       you know what happened during the lecture that you missed. The information from that class
-       your responsibility. (A good way of doing this is to ask a classmate!)
-     \item  If you have to leave a class early, inform the instructor in
+       you know what happened during the lecture that you missed. The information from that class is
+       your responsibility. (A good way of catching up is to ask a classmate!)
+     \item  If you have to leave a class early or arrive late, inform the instructor in
        advance. 
      \end{itemize}
      
