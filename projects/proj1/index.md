@@ -126,18 +126,18 @@ The winner is player 1!
 
 ### 1.  Program
 
-Through Canvas, turn in your `Nim.java` file.
+Through Canvas, turn in your **`Nim.java` file**.
 
 - You should use [good programming style](../../coding-style) when writing your program, except that you don't
   have to use functions in Java because we haven't fully learned them yet. You may use them if you so desire.
   All other style guidelines, including proper indentation and comments, should be followed.
 
-- In particular, be sure to include a block comment at the top of your program with your name and the statement
+- In particular, be sure to **include a comment at the top** of your program with **your name** and the **honor code statement**
   ``I have neither given nor received unauthorized aid on this program.''
 
 ### 2.  Questions
 
-Additionally, upload a text file answering the following questions:
+Additionally, **upload a text file** answering the following questions:
 - What bugs and conceptual difficulties did you encounter?  How did you overcome them?  What did you learn?
 - Describe whatever help (if any) that you received.  Don't include readings, lectures, and exercises, but do 
   include any help from other sources, such as websites or people (including classmates and friends) and attribute them by name.  Even if you get help for something small, describe it here!
@@ -152,7 +152,7 @@ Additionally, upload a text file answering the following questions:
 - To allow the user to enter the letter for a pile, I recommend using the `next()` function from the `Scanner` class.  
   We normally use `nextInt()`, `nextDouble()`, etc, but the one for `String`s is called simply `next()`.
   Note that `nextLine()` is also a valid function, but *can cause problems* when reading both numbers and Strings
-  int the same program, so definitely use `next()` here.
+  int the same program, so I recommend using `next()` here.
 - Comparing `String`s in Java is a bit tricky as well.  If you have two Strings, you shouldn't compare them with `==` or `!=`:
 	```java
 	String str = scanner.next();
@@ -160,7 +160,7 @@ Additionally, upload a text file answering the following questions:
 		statements...
 	}
 	```
-	The code above is legal, however the comparison will sometimes work correctly and sometimes not (it will be clear later).
+	The code above is legal, however the comparison will sometimes work correctly and sometimes not (we'll learn about this later).
 	
 	The correct way to compare `String`s in Java for equality or inequality is:
 	```java
@@ -191,8 +191,7 @@ yet they will typically be much more difficult than this credit amount suggests.
 - Challenge problems may be less carefully specified and less carefully calibrated for how difficult or time-consuming they are.
 - If you solve a challenge problem, include a comment at the top of your program detailing what you did.
 
-**Challenge problems for this assignment (upload in a separate file called `NimChallenge.java`; also turn in your regular `Nim.java` 
-file without the challenges):**
+**Challenge problems for this assignment (upload in a separate file called `NimChallenge.java`; also turn in your regular `Nim.java` file without the challenges):**
 
 - Let the players enter the starting number of sticks in each pile before the game starts.
 - Add a computer player that plays randomly and let the user choose whether or not they want to play the computer or another (human) player.
