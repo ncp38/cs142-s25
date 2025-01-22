@@ -25,7 +25,7 @@ I know you have experience with our half-lab half-lecture class from last week, 
 
 - On the next screen, copy and paste in the following URL in the box that says “URL”:
 
-  https://github.com/ncp38/cs142-s24-inclass
+  https://github.com/ncp38/cs142-s25-inclass
 
 <img src="SetUpURLAndDirectory.png" width=600 align=center>
 
