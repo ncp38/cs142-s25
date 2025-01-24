@@ -15,10 +15,11 @@ Fri, Jan 17
 : **Continue with Java.**  
   Printing, variables, user input, math, if/else, loops, random number generation, while/for loops.  
 :  [**Start-up: Accessing in-class code examples**](lectures/oop/VCSSetup.pdf)
-  [Programs for today](lectures/intro/scheduleLab1.pdf)
-  [while loop handout](lectures/intro/while-loops-handout.pdf).  
+  <!---   [Programs for today](lectures/intro/scheduleLab1.pdf)--->
+:  [while loop handout](lectures/intro/while-loops-handout.pdf) 
+:  [for loop handout](lectures/intro/for-loops-handout.pdf)
 :  [Code Source](https://github.com/ncp38/cs142-s25-inclass/tree/main/src/Intro){: .label-button } 
-: **Reading**{: .label .label-reading} Liang chapter 5 (loops).
+: **Reading**{: .label .label-reading} Liang chapter 5 (loops)
 : **Project**{: .label .label-proj } [**Project 1**](projects/proj1) (due Thu, Feb 1)
 
 Wed, Jan 22
@@ -26,13 +27,12 @@ Wed, Jan 22
 
 Fri, Jan 24  
 : **Practice with Java.**   
-  [for loop handout](lectures/intro/for-loops-handout.pdf)
  [**For Loop Code**](lectures/intro/forLoop.java){: .label .label-button }
  : [**Example Code**](lectures/intro/introductionToJava.java){: .label-button } 
   [**The Problem Code**](lectures/intro/problemCode.java){: .label-button } 
 :  [Functions handout](lectures/intro/functions-handout.pdf),
-  [functions practice](lectures/intro/functions-practice.pdf).  
-: **Reading**{: .label .label-reading} Liang chapter 5 (loops) and chapter 6 (functions).
+  [functions practice](lectures/intro/functions-practice.pdf) 
+: **Reading**{: .label .label-reading} Liang chapter 6 (functions)
 
 Mon, Jan 27
 : **Practice with functions, intro to OOP**  
@@ -46,7 +46,7 @@ Wed, Jan 29
 
 Fri, Jan 31
 : **Object-Oriented Programming I**
-:  [**Start-up: Accessing in-class code examples**](lectures/oop/VCSSetup.pdf)
+<!---:  [**Start-up: Accessing in-class code examples**](lectures/oop/VCSSetup.pdf)--->
 :  [OOP definitions](lectures/oop/oop-defs.pdf)
 : **Reading**{: .label .label-reading} Sedgewick & Wayne 3.1, pp. 329-335 (OO concepts).
 : **Homework**{: .label .label-hw } [**Homework 1**](homework/hw1) (due Fri, Feb 7)
