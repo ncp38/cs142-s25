@@ -13,10 +13,10 @@ objects, calling instance methods, and multidimensional arrays.
 
 ### Getting started
 
-1. Start IntelliJ.  Follow the instructions (from class/the webpage on January 12th) for pulling the latest version of the in-class code using Git.  You'll create a project using the same link from last week: https://github.com/ncp38/cs142-s24-inclass
+1. Start IntelliJ.  Follow the instructions (from class/the webpage on January 17th) for pulling the latest version of the in-class code using Git.  You'll create a project using the same link from last week: https://github.com/ncp38/cs142-s25-inclass
 
 2. In the left-hand panel, expand the `src` folder to see today's lab 
-    (in the `lab3` folder).  Double-click on `TicTacToe` (not the `md`
+    (in the `lab2` folder).  Double-click on `TicTacToe` (not the `md`
     file yet.)  If you get a yellow bar at the top that says "Project JDK is
     not defined," then click on "Setup SDK" and choose the JDK you downloaded
     earlier.
@@ -25,16 +25,16 @@ objects, calling instance methods, and multidimensional arrays.
     the instructions in this file.  This is where you will answer the questions
     for the lab.
 
-**Note**: You do not need to open the `SimpleCanvas` file.
+**Note**: You do not need to open the `SimpleCanvas` file--but please feel free to explore it if you are curious.  There are some complex things in it that we haven't talked about.
 
 ### Submitting the lab
 
 When you are done, please turn in the `TicTacToe.java` file and 
-the `TicTacToe.md` file to canvas.
+the `TicTacToe.md` file to canvas. (You don't have to turn in `SimpleCanvas.java`.)
 
--Each Java file you upload should include a header with an assignment title, your name, class number/period, and any teammates' names.  (Your names need to be listed in the questions.md file as well!)
+-Each Java file you upload should include a header with an assignment title, your name, and any teammates' names.  (Your names need to be listed in the questions.md file as well!)
 
--Beneath this header include a short description of what you've changed in the file.
+-Beneath this header please include a short description of what you've changed in the file.
 
 For example:
 
@@ -44,3 +44,4 @@ For example:
 //Jane Deere, COMP 142 Section 1
 //Changed lines 180-235 to allow three player games on different-sized boards.
 ```
+
