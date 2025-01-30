@@ -180,9 +180,9 @@ writing "test functions."  A test function is a function designed to test some a
 by running a number of test cases on the parts being tested.  You can call these
 test functions from main.  For each test case in your test function, you **must include a comment** describing 1) what your input is and 2) the output you expect from this test case.  
 
-When you're writing test functions, I **highly** encourage you to consider edge cases and things that might go wrong with your code.  Edge cases are inputs near the boundary conditions-as an example, what happens if you ask the user for a String, and they enter an empty string ""?  Or what happens when you click on the bottom-right corner of the board?  Thinking about edge cases is great for your programming--it allows you to discover errors that other programmers can easily overlook!
+When you're writing test functions, I **highly** encourage you to consider edge cases and things that might go wrong with your code.  Edge cases are inputs near the boundary conditions-as an example, what happens if you ask the user for a String, and they enter an empty string ""?  Or what happens when a user clicks on the bottom-right corner of the board?  Thinking about edge cases is great for your programming--it allows you to discover errors that other programmers can easily overlook!
 
-You must write test functions for `hasMatchingNeighbor()`, `gravity()` and `spreadMarked()`.  Additional
+You **must write test functions** for `hasMatchingNeighbor()`, `gravity()` and `spreadMarked()`.  Additional
 test functions are highly recommended, but not required.
 
 For instance, to test `gravity()`, you might write this:
@@ -193,7 +193,7 @@ For instance, to test `gravity()`, you might write this:
 */
 public static void testGravity()
 {
-    //Input: A board with some gumdrops removed.
+	//Input: A board with some gumdrops removed.
 	int[][] board1 = 
 		{ {1, 3, 2, 1},
 		  {1, 0, 0, 3},
@@ -206,7 +206,7 @@ public static void testGravity()
 }
 ```
 
-And then you would verify that your test code prints
+And then you should verify that your test code prints the desired output:
 
 ```
 [0, 0, 0, 0]
@@ -251,8 +251,11 @@ learned from doing the assignment, and whether you enjoyed doing it.
 If you do any of these challenges, make sure to submit both the Java file for the base project and a new version for any challenges (ex., GumdropGathererChallenge.java)!
 
 - Add additional functionality to the game like you might find in games like Candy Crush Saga, Angry Birds, Toon Blast, etc.
+
 -- For example, make up different kinds of "items" that can appear in squares on the board. Like a bomb that explodes neighboring squares, or a present that earns you bonus points.
+
 --Create a scaling difficulty level that increases with time or points earned.
+
 --Add in other animations or features.
 
 ## Hints and tips
