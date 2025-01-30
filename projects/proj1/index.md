@@ -132,7 +132,7 @@ Through Canvas, turn in your **`Nim.java` file**.
   have to use functions in Java because we haven't fully learned them yet. You may use them if you so desire.
   All other style guidelines, including proper indentation and comments, should be followed.
 
-- In particular, be sure to **include a comment at the top** of your program with **your name** and the **honor code statement**
+- In particular, you must **include a comment at the top** of your program with **your name** and the **honor code statement**
   ``I have neither given nor received unauthorized aid on this program.''
 
 ### 2.  Questions

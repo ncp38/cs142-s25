@@ -10,21 +10,14 @@ parent: Projects
 {:toc}
 
 You will write a program that allows the user to play a "Candy Crush Saga"-style game 
-that we are calling "Gumdrop Gatherer." (Let me know if you can come up with a 
-better name for this...) In the game, you are presented with a two-dimensional grid of 
-gumdrops, and you must gather them in a certain way to collect as many points as possible. 
+that we are calling "Gumdrop Gatherer."  In the game, you are presented with a two-dimensional grid of 
+gumdrops, and you must gather them to collect as many points as possible. 
 You can use the mouse to click on any gumdrop you want, as long as it has at least 
-one neighboring gumdrop of the same color. At that point, all the gumdrops of that 
-color are neighbors of the one you selected (and neighbors of the neighbors, etc) disappear, 
+one neighboring gumdrop of the same color. At that point, all the connected gumdrops of that color disappear, 
 and new ones drop from the top to take their place. You earn points for every gumdrop that 
 disappears.
 
-**Alternate games**
-
-If this game doesn't particularly interest you, you may create any two-dimensional game 
-of your choice of comparable programming difficulty. See the end of this document for 
-requirements and suggested games. You must get the instructor's approval before starting 
-work on your project if you are not writing the Gumdrop Gatherer program.
+Note that the main project description can be read from top to bottom; at the end, there are specific guidelines for what needs to be submitted as well as a section for hints.  If you get stuck as you work through the project, this section may be helpful to consult.
 
 ## Game description
 
@@ -36,7 +29,7 @@ Your browser does not support the video tag.
 </video>
 
 
-Your game doesn't have to work exactly like mine, but it must meet the following requirements:
+Your game doesn't have to work exactly like mine, but it **must meet the following requirements**:
 
 - The game should ask the user how big the board should be, in rows and columns.
 - The game should ask the user how many points to play to.
@@ -71,7 +64,7 @@ I suggest making a new subfolder in your CS 142 projects folder.**
 You can download the starter code for this assignment by creating a new IntelliJ
 project from version control (VCS) and using the following URL:
 
-`https://github.com/ncp38/cs142-s24-inclass`
+`https://github.com/ncp38/cs142-s25-inclass`
 
 In the starter project you will find three files:
 
@@ -110,14 +103,15 @@ numbers = gumdrops, negative numbers = "marked" gumdrops.*
 In tic-tac-toe we used a square size of 100-by-100 because the game board was only 3 by 3, which
 then scaled up to a 300 x 300 sized canvas.   
 Because the game board for this project can be larger (it's more fun if it's larger), 
-I suggest using a gumdrop size of 40-by-40 instead.  In other words, instead of multiplying
-and dividing by 100, you will multiply and divide by 40.
+I suggest using a gumdrop size of 40-by-40 instead.  In other words, to get the pixel size of the board, you would multiply the number of rows/the number of columns by 40.
 
 **Marking gumdrops for removal**
 
-When a gumdrop is clicked on, we need to figure out the region of gumdrops that will be
+When a gumdrop is clicked on, we need to verify that it has a neighbor of the same color!
+
+If so, then we need to figure out the region of gumdrops that will be
 removed.  The way we will do this is by "marking" gumdrops for removal in an iterative
-process.  When a gumdrop is first clicked on, your code should change its number to its
+process.  After verifying that the gumdrop is a valid choice, your code should change its number to its
 *negative* equivalent.  Remember that the gumdrop colors are stored internally by positive
 integers 1--4.  So when a gumdrop is clicked on, it will be marked for removal by changing
 its integer to the corresponding negative integer.  That is, "1" becomes "-1", "2" becomes
@@ -141,7 +135,6 @@ there explaining the general algorithm.  To be clear, you should not write all o
 code inside `main()`!  
 - I've given you the function definitions for two other functions: `handleMouseClick` and `draw`.  I've also
 given you a useful function for debugging, `printBoard`, that prints the board in text.
-This is useful for debugging.
 - You must write a few other functions as well.  This will help you split the project into manageable pieces:
 
 	- `hasMatchingNeighbor(int[][] board, int row, int col)`: This function returns a `boolean` indicating
@@ -157,18 +150,18 @@ This is useful for debugging.
 	neighbors with the matching number (color).  This can be called in a loop until
 	no more marking happens.  Hints are below.
 	
-	- `removeMarked(int[][] board)`: After all the gumdrops needing to be marked are marked,
-	I used this function to remove them (turn the negative numbers into zeroes).  Remember,
+	- `removeMarked(int[][] board)`: After all the gumdrops needing to be marked have been found,
+	this function can be used to remove them (turn the negative numbers into zeroes).  Remember,
 	gumdrops are never "truly" removed, we just turn them back into zeroes which indicates
 	empty squares.
 	
-	- `gravity(int[][] board)`: After removing marked gumdrops, I used this function to iteratively
-	lower any "floating" gumdrops until they were resting on top of existing ones.
+	- `gravity(int[][] board)`: After removing marked gumdrops, this function is used to iteratively
+	lower any "floating" gumdrops until they are resting on top of existing ones.
 	
-	- `calcPoints(int gumdrops)`: I used this function to calculate how many points the player
+	- `calcPoints(int gumdrops)`: This function can be used to calculate how many points the player
 	earns for removing however many gumdrops they removed.
 	
-	- `fillEmptySqures(int[][] board)`: I used this function after removing marked gumdrops to 
+	- `fillEmptySqures(int[][] board)`: This function is used after removing marked gumdrops to 
 	place new random gumdrops in the empty squares.
 	
 You may determine the proper parameters and return values for these functions.
@@ -182,10 +175,12 @@ code.
 	
 ## Testing your program
 
-You should test your program thoroughly to make sure it works.  You will do this by 
-writing "test functions."  A test function is a function designed to test a different function,
-that will run a number of test cases on the function being tested.  You can call these
-test functions from main.
+You should test your program thoroughly to make sure it works.  You must do this by 
+writing "test functions."  A test function is a function designed to test some aspect of the program,
+by running a number of test cases on the parts being tested.  You can call these
+test functions from main.  For each test case in your test function, you **must include a comment** describing 1) what your input is and 2) the output you expect from this test case.  
+
+When you're writing test functions, I **highly** encourage you to consider edge cases and things that might go wrong with your code.  Edge cases are inputs near the boundary conditions-as an example, what happens if you ask the user for a String, and they enter an empty string ""?  Or what happens when you click on the bottom-right corner of the board?  Thinking about edge cases is great for your programming--it allows you to discover errors that other programmers can easily overlook!
 
 You must write test functions for `hasMatchingNeighbor()`, `gravity()` and `spreadMarked()`.  Additional
 test functions are highly recommended, but not required.
@@ -193,14 +188,20 @@ test functions are highly recommended, but not required.
 For instance, to test `gravity()`, you might write this:
 
 ```java
+/**
+* This function implements a test case for gravity.
+*/
 public static void testGravity()
 {
+    //Input: A board with some gumdrops removed.
 	int[][] board1 = 
 		{ {1, 3, 2, 1},
 		  {1, 0, 0, 3},
 		  {2, 2, 0, 0},
 		  {0, 0, 0, 1} };
 	gravity(board1);
+	
+	//Output: All numbers above a 0 should drop down one slot.  (For example, the bottom row should become 2, 2, 0, 1.)
 	printBoard(board1);
 }
 ```
@@ -214,23 +215,27 @@ And then you would verify that your test code prints
 [2, 2, 0, 1]
 ```
 
+For brevity, I've included only a single test case here, but I would encourage you to use multiple test cases.
+
 # *What to turn in*
 
 ### 1.  Program
 
-- Through Canvas, turn in your `GumdropGatherer.java` file.
+- Through Canvas, turn in your **`GumdropGatherer.java`** file.  It should have all the functionality listed under the game description heading (at the beginning of this page) and should be free of bugs.
 
-- You should use [good programming style](../../coding-style) when writing your program.
-  All other style guidelines, including proper indentation and comments, should be followed.
+- For this project, you are required to use **test functions.**  Remember to include these!
   
-- You should use JavaDoc comments for your methods in addition to your regular comments.
+- You must **use JavaDoc comments for your methods** in addition to your regular comments.
 
-- In particular, be sure to include a block comment at the top of your program with your name and the statement
+- In particular, you must **include a comment at the top** of your program with **your name** and the **honor code statement**
   ``I have neither given nor received unauthorized aid on this program.''
+  
+- You should use [good programming style](../../coding-style) when writing your program.
+All other style guidelines, including proper indentation and comments, should be followed.
 
 ### 2.  Questions
 
-Additionally, upload a text file answering the following questions:
+Additionally, upload **a text file** answering the following questions:
 
 1. What bugs and conceptual difficulties did you encounter? How did you overcome them? What did you learn?
 2. Describe whatever help (if any) that you received. Don’t include readings, lectures, and exercises, 
@@ -243,8 +248,12 @@ learned from doing the assignment, and whether you enjoyed doing it.
 
 ## Challenges
 
+If you do any of these challenges, make sure to submit both the Java file for the base project and a new version for any challenges (ex., GumdropGathererChallenge.java)!
+
 - Add additional functionality to the game like you might find in games like Candy Crush Saga, Angry Birds, Toon Blast, etc.
-- For example, make up different kinds of "items" that can appear in squares on the board. Like a bomb that explodes neighboring squares, or a present that earns you bonus points.
+-- For example, make up different kinds of "items" that can appear in squares on the board. Like a bomb that explodes neighboring squares, or a present that earns you bonus points.
+--Create a scaling difficulty level that increases with time or points earned.
+--Add in other animations or features.
 
 ## Hints and tips
 
@@ -259,7 +268,7 @@ This is a slightly tricky one because it involves checking the neighboring squar
   
   Try writing this function:
   
-  `boolean spreadMarked(int[][] board)`: This function should "spread" any negative numbers s in the board to their upper, lower, left, and right neighbors, if those neighbors have the same number as the negative number in question.  This sounds harder than it is.  To do this, use a standard nested-for loop to iterate through the board.  Whenever you find a negative number, first check to see if any of the four neighbors have the positive
+  `boolean spreadMarked(int[][] board)`: This function should "spread" any negative numbers s in the board to their upper, lower, left, and right neighbors, if those neighbors have the same number as the negative number in question.  This sounds harder than it is.  To do this, use a standard nested-for loop to iterate through the board.  First check to see if any of the four neighbors have the positive
   version of that number in them.  If they do, overwrite the neighbor with the negative
   number.  I suggest having this function return `true` whenever at least one cell
   was changed; that way you can call this function repeatedly until it returns `false`
@@ -367,10 +376,3 @@ earned.
   
   and it returns `true`.  At this point all the pieces are as low as possible, but
   the function must be called one more time to return `false` in order to determine that.
-
-<!-- omit in toc -->
-## Other games 
-
-- If you don't like this game, you can make a different one. The requirements are that it must involve a customizable-size board, and it must involve some concept where you examine the "neighbors" of the squares on the board.
-- Some ideas are: Minesweeper, Connect 4, 2048, Candy Crush, Angry Birds, ...
-- You must clear your idea with me first.
