@@ -17,7 +17,7 @@ one neighboring gumdrop of the same color. At that point, all the connected gumd
 and new ones drop from the top to take their place. You earn points for every gumdrop that 
 disappears.
 
-Note that the main project description can be read from top to bottom; at the end, there are specific guidelines for what needs to be submitted as well as a section for hints.  If you get stuck as you work through the project, this section may be helpful to consult.
+Note that the main project description can be read from top to bottom; at the end, there are specific guidelines for what needs to be submitted, as well as a section for hints.  If you get stuck as you work through the project, the hints section may be helpful to consult.
 
 ## Game description
 
@@ -170,7 +170,7 @@ You may determine the proper parameters and return values for these functions.
 
 In Lab 2, we learned about Javadoc comments.  As you may remember, these are special comments that start 
 with /** and end with */; they create tooltips and descriptions that are used for your functions.   You 
-should place Javadoc comments before any function you write in this project.  There are examples in the starter
+**must place Javadoc comments before any function** you write in this project.  There are examples in the starter
 code.
 	
 ## Testing your program
