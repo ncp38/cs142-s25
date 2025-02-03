@@ -55,17 +55,12 @@ Mon, Feb 3
 : **Object-Oriented Programming II**  
   Digging in deeper to OOP concepts and terminology.  Using classes and functions designed by others.
 :  [SimpleCanvas and Color APIs](lectures/oop/simplecanvas-and-color.pdf)
-:  [Code Source](https://github.com/ncp38/cs142-s24-inclass/tree/main/src/oop1){: .label-button } 
+:  [Code Source](https://github.com/ncp38/cs142-s25-inclass/tree/main/src/oop1){: .label-button } 
 : **Reading**{: .label .label-reading} Liang chapter 8 (multidimensional arrays).
 : **Project**{: .label .label-proj } [**Project 2**](projects/proj2) (due Tue, Feb 17)
   
 Wed, Feb 5
 : **Lab**{: .label .label-lab } [**Lab 3**](labs/lab3/) (due Fri, Feb 7 at 5:00 PM)
-
-<!---:  A series of lectures to watch followed by in-class work!  
-:  [Lecture 1 - Debugging with Intellij](https://rhodes.instructuremedia.com/embed/75f01cbf-69f9-4c77-aeb7-96e19c0b19fa){: .label-button } 
-:  [Lecture 2 - Design Choices](https://rhodes.instructuremedia.com/embed/c1553cb0-476d-45c3-b56c-277d4420e8da){: .label-button } 
-:  [Lecture 3 - SimpleCanvas & In-Class Work](https://rhodes.instructuremedia.com/embed/b5ee1d41-8556-4609-93ed-cade4dc2aea8){: .label-button }--->
   
 Fri, Feb 7
 : **Object-Oriented Programming III**  
@@ -234,7 +229,7 @@ Wed, Apr 23
 Fri, Apr 25
 : **Big O** 
   How computer scientists measure how fast algorithms run. 
-: [Final Study Guide](lectures/examPrep/final-prac-problems-s24.pdf) 
+: [Final Study Guide](lectures/examPrep/final-prac-problems-s25.pdf) 
 : [Big O handout](lectures/big-oh/bigoh-handout.pdf)
 : **Project**{: .label .label-proj } [**Project 6**](projects/proj6) (due Sun, May 7)
 
@@ -246,7 +241,7 @@ Flex day
 
 Fri, May 2
 : Final Review!!
-<!---: [Final Solutions](lectures/examPrep/final-prac-problems-sol-s24.pdf) ---> 
+<!---: [Final Solutions](lectures/examPrep/final-prac-problems-sol-s25.pdf) ---> 
 
 <!---Fri, Dec 1
 : **Lab**{: .label .label-lab } [**Lab 11**](labs/lab11/)
@@ -256,3 +251,7 @@ Mon, Dec 4
   How computer scientists measure how fast algorithms run. 
 : [Big Oh handout](lectures/big-oh/bigoh-handout.pdf)---> 
  
+<!---:  A series of lectures to watch followed by in-class work!  
+:  [Lecture 1 - Debugging with Intellij](https://rhodes.instructuremedia.com/embed/75f01cbf-69f9-4c77-aeb7-96e19c0b19fa){: .label-button } 
+:  [Lecture 2 - Design Choices](https://rhodes.instructuremedia.com/embed/c1553cb0-476d-45c3-b56c-277d4420e8da){: .label-button } 
+:  [Lecture 3 - SimpleCanvas & In-Class Work](https://rhodes.instructuremedia.com/embed/b5ee1d41-8556-4609-93ed-cade4dc2aea8){: .label-button }--->
