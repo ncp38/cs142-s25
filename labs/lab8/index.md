@@ -5,8 +5,6 @@ parent: Labs
 
 # CS 142 Lab 8
 
-For this lab, you can pick your own partner!
-
 ## The snake game
 
 You'll investigate and design a classic Snake game, where a player controls a snake on a 2D grid as it seeks to eat items to become bigger!  This will help you improve your ability to make design choices in your programming, use/practice with ArrayLists and Strings, and practice with instantiating objects and calling instance methods on them.
@@ -17,7 +15,7 @@ Pair up with your partner, then create a new project from version control (as we
 
 ### Code Source
 
-https://github.com/ncp38/cs142-s24-inclass
+https://github.com/ncp38/cs142-s25-inclass
 
 ### Submitting the lab
 

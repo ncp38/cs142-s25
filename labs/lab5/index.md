@@ -5,8 +5,6 @@ parent: Labs
 
 # CS 142 Lab 5
 
-For this lab, we're using the same randomized partners as last week!  (Your pairing will be put up on the screen at the beginning of class.)
-
 ## Memphis maps, roads, and parks
 
 You'll investigate and design several maps related to Memphis, including maps of roads and parks!  This will help you learn about ArrayLists in Java and become more proficient using and writing classes.
@@ -17,7 +15,7 @@ Pair up with your partner, then create a new project from version control (as we
 
 ### Code Source
 
-https://github.com/ncp38/cs142-s24-inclass
+https://github.com/ncp38/cs142-s25-inclass
 
 ### Submitting the lab
 

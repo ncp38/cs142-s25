@@ -5,8 +5,6 @@ parent: Labs
 
 # CS 142 Lab 10
 
-For this lab, we'll be using new randomized partners!  (Your pairing will be put up on the screen at the beginning of class.)
-
 ## Inheritance, Polymorphism, and Java
 
 In this lab, you'll explore inheritance and polymorphism!  When you finish, you'll have a better practical understanding of object-oriented programming, allowing you to use superclasses, subclasses, and reference them in particular ways to solve programming challenges.
@@ -17,7 +15,7 @@ Pair up with your partner, then create a new project from version control (as we
 
 ### Code Source
 
-https://github.com/ncp38/cs142-s24-inclass
+https://github.com/ncp38/cs142-s25-inclass
 
 ### Submitting the lab
 

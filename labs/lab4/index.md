@@ -5,19 +5,17 @@ parent: Labs
 
 # CS 142 Lab 4
 
-For this lab, we're continuing to pick our partners!  
-
 ## Self-Driving Racecars
 
 In this lab, you will continue working on the racecar program from last week.  This lab will help you think critically about classes, programming structure, and design.
 
 ### Getting started
 
-Partner up with your partner, then create a new project from version control (as we've been doing for the last several classes).  Follow the instructions in the .md file!
+Pair up with your partner, then create a new project from version control (as we've been doing for the last several classes).  Follow the instructions in the .md file!
 
 ### Code Source
 
-https://github.com/ncp38/cs142-s24-inclass
+https://github.com/ncp38/cs142-s25-inclass
 
 ### Submitting the lab
 

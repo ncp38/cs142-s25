@@ -5,8 +5,6 @@ parent: Labs
 
 # CS 142 Lab 6
 
-For this lab, we'll be using new randomized partners!  (Your pairing will be put up on the screen at the beginning of class.)
-
 ## Recursion, recursive algorithms, and recursion diagrams
 
 In this lab, you'll explore recursion and using recursive functions!  When you finish, you'll have worked with recursive functions, created several recursive functions yourself, and analyzed how they operate.
@@ -17,7 +15,7 @@ Pair up with your partner, then create a new project from version control (as we
 
 ### Code Source
 
-https://github.com/ncp38/cs142-s24-inclass
+https://github.com/ncp38/cs142-s25-inclass
 
 ### Submitting the lab
 

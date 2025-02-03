@@ -9,7 +9,6 @@ parent: Labs
 
 In this lab, you will play and modify a program already written for you in Java.  Through 
 using the program and modifying it, you will practice with designing and using your own classes.
-This will be your first lab with a partner!
 
 ### Getting started
 
@@ -17,7 +16,7 @@ Follow the instructions given to you.
 
 ### Code Source
 
-https://github.com/ncp38/cs142-s24-inclass
+https://github.com/ncp38/cs142-s25-inclass
 
 ### Submitting the lab
 

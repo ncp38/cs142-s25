@@ -5,8 +5,6 @@ parent: Labs
 
 # CS 142 Lab 
 
-For this lab, we'll be using the same randomized partners!  (Your pairing will be put up on the screen at the beginning of class.)
-
 ## Recursion and the Tower of Hanoi
 
 In this lab, you'll further explore the concept of recursion!  You'll investigate several recursive algorithms and the Tower of Hanoi game and spend some time analyzing how they work.
@@ -17,7 +15,7 @@ Pair up with your partner, then create a new project from version control (as we
 
 ### Code Source
 
-https://github.com/ncp38/cs142-s24-inclass
+https://github.com/ncp38/cs142-s25-inclass
 
 ### Submitting the lab
 

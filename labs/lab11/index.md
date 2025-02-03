@@ -5,8 +5,6 @@ parent: Labs
 
 # CS 142 Lab 11 - The One Where You Learn How To Make Money With Math (but, no, please don't try this at home!)
 
-For this lab, you can choose a partner of your choice!  (Make sure that you partner with at least one other person; if there's an odd number of people in the class we'll do a three-person group.)
-
 ## Blackjack and Programming with Object-Oriented Programming
 
 In this lab, you'll work with functions related to playing a game of blackjack!  When you finish, you'll have explored new elements of object-oriented programming, including enums and interfaces, as well as other standard OOP concepts.
@@ -17,7 +15,7 @@ Pair up with your partner, then create a new project from version control (as we
 
 ### Code Source
 
-https://github.com/ncp38/cs142-s24-inclass
+https://github.com/ncp38/cs142-s25-inclass
 
 ### Submitting the lab
 
