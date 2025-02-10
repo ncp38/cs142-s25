@@ -71,7 +71,6 @@ Mon, Feb 10
 : **Creating Classes I**  
   Learning how to design simple classes.  
   [Class design handout](lectures/oop/oop-creating-classes-handout.pdf)
-: [**Slides**](lectures/oop/oop-creating-classes-slides1.pdf){: .label-button } 
 : **Reading**{: .label .label-reading} Liang 9.1-9.3, 9.5 (creating classes).
 
 Wed, Feb 12
