@@ -92,7 +92,7 @@ Mon, Feb 17
 : [**Exam Review (interpreting code)**](lectures/examPrep/midterm1-prac-additional.pdf){: .label-button } 
 
 Wed, Feb 19
-: **Lab**{: .label .label-lab } [**Lab 5**](labs/lab5/) (due Fri, Feb 21 at 5:00 PM)
+: **Bonus Lab**{: .label .label-lab } [**Lab 5**](labs/lab5/) (due Mon, Feb 24 at 5:00 PM)
 
 Fri, Feb 21
 : **OO Design Practices**  
