@@ -98,9 +98,9 @@ Fri, Feb 21
 : **OO Design Practices**  
   More practice with the `Fraction` class.
 
-**Exam Review Solutions (writing code)**](lectures/examPrep/midterm1-prep-inclass-sol.pdf){: .label-button } 
+: [**Exam Review Solutions (writing code)**](lectures/examPrep/midterm1-prep-inclass-sol.pdf){: .label-button } 
 : [**Exam Review Solutions (interpreting code)**](lectures/examPrep/midterm1-prep-addl-sol12.pdf){: .label-button } 
-: [**Exam Review Solutions (interpreting code, final question)**](lectures/examPrep/midterm1-prep-addl-sol3.pdf){: .label-button } 
+: [**Exam Review Solutions (interpreting code, final question)**](lectures/examPrep/midterm1-prep-addl-sol3.pdf){: .label-button } --->
 
 Mon, Feb 24
 : **Review for midterm**
