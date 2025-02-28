@@ -110,23 +110,26 @@ Wed, Feb 26
 : **Exam I**{: .label .label-exam }
 
 Fri, Feb 28
-Flex Day
-
-Mon, Mar 3
 : **Recursion I**  
   [Recursion handout](lectures/recursion/recursion-handout.pdf)
 : [**Slides**](lectures/recursion/recursion-1-slides.pdf){: .label-button } 
 	[**Recursion 1**](https://github.com/ncp38/cs142-f23-inclass/tree/main/src/recursion/Recursion1.java){: .label-button } 
 : **Reading**{: .label .label-reading} Liang 18.1-18.2 (recursion intro).
+
+Mon, Mar 3
+: **Recursion II**
 : **Project**{: .label .label-proj } [**Project 3**](projects/proj3) (due Fri, Mar 21)
+: **Reading**{: .label .label-reading} Liang 18.3 (recursion continued).  Pay special attention to Figures 18.2 and 18.3 on
+  page 722; these are important to understand.
 
 Wed, Mar 5
 : **Lab**{: .label .label-lab } [**Lab 6**](labs/lab6/) (due Fri, Mar 7 at 5:00 PM)
 
 Fri, Mar 7
-: **Recursion II**
-: **Reading**{: .label .label-reading} Liang 18.3 (recursion continued).  Pay special attention to Figures 18.2 and 18.3 on
-  page 722; these are important to understand.
+: **Recursion III**  
+  Recursive functions with arrays  
+    [Recursion with arrays handout](lectures/recursion/recursion-with-arrays.pdf)
+: [**Slides**](lectures/recursion/day3-recursion-with-arrays-slides.pdf){: .label-button } 
 
 Mon, Mar 11
 : Spring break!
@@ -139,10 +142,7 @@ Fri, Mar 15
 
 
 Mon, Mar 17
-: **Recursion III**  
-  Recursive functions with arrays  
-    [Recursion with arrays handout](lectures/recursion/recursion-with-arrays.pdf)
-: [**Slides**](lectures/recursion/day3-recursion-with-arrays-slides.pdf){: .label-button } 
+TBD
 
 
 Wed, Mar 19
