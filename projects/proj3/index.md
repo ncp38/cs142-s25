@@ -33,7 +33,7 @@ I suggest making a new subfolder in your CS 142 projects folder.**
 You can download the starter code for this assignment by creating a new IntelliJ
 project from version control (VCS) and using the following URL:
 
-https://github.com/ncp38/cs142-s24-inclass
+https://github.com/ncp38/cs142-s25-inclass
 
 You'll find the starter code in the project3 folder.
 
@@ -132,10 +132,10 @@ coordinates of the points aren't provided in the constructor, they will be added
 `addPoints()` function.  
 
 **Note**: The points of a polygon are represented here as `double`s, even
-though we will only ever have use integer coordinates.  The reason for this is that when we start
+though we will only ever have to use integer coordinates.  The reason for this is that when we start
 animating the polygons, it is possible that the translation and rotation math will require 
 some polygons to *temporarily* be
-placed at non-integer coordinates, so therefore we just store all points as doubles.  
+placed at non-integer coordinates, so therefore it is more convenient to store all points as doubles.  
 
 Example usage of this class:
   
@@ -157,7 +157,7 @@ do not have to check for `addPoints()` being called too many times, though you m
 
 **Suggested order of writing methods**
 	
-Before writing **any** methods, familiarize yourself with the instance variables
+Before writing *any* methods, familiarize yourself with the instance variables
 of the class and envision how the methods will work with them.   Note that the
 constructor and the `drawOn()` method are already written for you.
 
@@ -177,7 +177,7 @@ prints it out, and displays it on a sample canvas.  The polygon's string represe
 	
 	<img src="rectangle.png" border=1>
 	
-	Then, create a second polygon in the test function, print it out, and draw it on the canvas.
+	Then, **create a second polygon** in the test function, print it out, and draw it on the canvas.
 	Verify that it is printed and drawn correctly.
 
 - `translate()`: Write this next.  This method takes two `double`s, `distx` and `disty`, and should
@@ -195,7 +195,7 @@ should be:
 	Polygon: [80.0, 180.0, 180.0, 80.0] [80.0, 80.0, 280.0, 280.0]
 	```
 	
-	The test function also asks you to create a second polygon and test its translation.
+	The test function also asks you to **create a second polygon and test its translation**.
 
 - `rotateAround()`: Write this next.  This method takes a point and an angle (in degrees)
 and should rotate the polygon around the given point by the specified number of degrees.
@@ -206,8 +206,7 @@ rotation is counter-clockwise.  (This happens automatically with the math, you d
 to do anything special for this.)
 
 - **Stop and test**.  In `Tests.java`, write a function called `testRotations()` that
-works similarly to `testTranslations()`.  You should create a polygon and rotate
-it a few times, and verify the rotations work as they should.  You can make up examples
+works similarly to `testTranslations()`.  You should **create a polygon and rotate it a few times**, and verify the rotations work as they should.  You can make up examples
 or find some online (there are lots of videos that walk through the math, and you can use
 their examples if you don't want to make up your own.)
 
@@ -255,7 +254,7 @@ see something like:
 in the ComboPolygon, passing along the same arguments the method was called with.
 
 - **Stop and test**.  At this point, you should be able to see the ComboPolygon drawn
-on the screen while testing.
+on the screen while running `testComboPolygons()`.
 	   
 - `translate()`: Write this next.  Use a `for` loop to call `translate()` on each Polygon
 in the ComboPolygon, passing along the same arguments the method was called with.
