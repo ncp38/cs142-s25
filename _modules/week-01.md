@@ -123,7 +123,7 @@ Mon, Mar 3
   page 722; these are important to understand.
 
 Wed, Mar 5
-: [**Midsemester Evaluation (a bonus opportunity!)**](https://forms.gle/JosdSCuny3dApcSp9)
+: [**Midsemester Evaluation (a bonus opportunity!)**](https://forms.gle/JosdSCuny3dApcSp9) (due Fri, Mar 7)
 : **Lab**{: .label .label-lab } [**Lab 6**](labs/lab6/) (due Fri, Mar 7 at 5:00 PM)
 
 Fri, Mar 7
