@@ -147,8 +147,8 @@ Mon, Mar 17
 :  [Lecture 1 - Debugging with Intellij](https://rhodes.instructuremedia.com/embed/75f01cbf-69f9-4c77-aeb7-96e19c0b19fa){: .label-button } 
 :  [Lecture 2 - Design Choices](https://rhodes.instructuremedia.com/embed/c1553cb0-476d-45c3-b56c-277d4420e8da){: .label-button } 
   
-:  [String handout](lectures/arraylists-str/strings-handout.pdf),
-:  [ArrayList handout](lectures/arraylists-str/arraylists-handout.pdf),
+:  [String handout]{: .label .label-reading}(lectures/arraylists-str/strings-handout.pdf)
+:  [ArrayList handout]{: .label .label-reading}(lectures/arraylists-str/arraylists-handout.pdf)
 :  [Practice problems](lectures/arraylists-str/practice.pdf)
 
 
