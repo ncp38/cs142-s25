@@ -22,7 +22,7 @@ seo:
 
 ## Administrivia
 - Instructor: Nate Phillips
-- Office hours: Mon 2-4 PM, Wed 2-4 PM.  Also available by appointment and over Slack or Zoom.
+- Office hours: Mon 2-4 PM, Wed 2-3 PM.  Also available by appointment and over Slack or Zoom.
 - [Section 1 Canvas page](https://rhodes.instructure.com/courses/8526) and [Section 2 Canvas page](https://rhodes.instructure.com/courses/8518): Use for grades, online assignment submissions, and assignment solutions.
 - [Syllabus](syllabus/syllabus-142-s25.pdf) and [additional policies](syllabus/additional-policies-142-s25.pdf).
 - Tutoring hours: Sunday through Thursday evenings, 5-11pm, Briggs 001 
