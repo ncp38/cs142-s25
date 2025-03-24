@@ -163,7 +163,9 @@ Next we will focus on the two functions in Maze called drawMaze() and drawMazeWi
 - Fill in the code for drawMazeWithPatronus().  This function will be very short, because all you need to do is call your drawMaze() function and then draw a dot for where the patronus is.
   - **Stop and test.** Write the testDrawingPatronus() function in RunTournament.  This test function should read in a maze file and then call drawMazeWithPatronus() so it will be seen on the canvas.  Note that the maze doesn't specify where the patronus is, so you should make up some test coordinates for where it is.
   - Example:
-    maze1.txt with patronus at row 1, col 2: ![maze1p](maze1p.png)
+    maze1.txt with patronus at row 1, col 2: 
+	
+	![maze1p](maze1p.png)
 - Note: If you cannot get the drawing code to work, you can still proceed to the following steps, using your printMaze() function instead of drawMaze().
 
 ###  Step 4: Get the boolean solver working
