@@ -152,10 +152,13 @@ Next we will focus on the two functions in Maze called drawMaze() and drawMazeWi
   - **Stop and test.** Write the testDrawing() function in RunTournament.  This test function should read in a maze file and then call drawMaze() so it will be seen on the canvas.
   - Examples: 
     maze0.txt 
+	
 	![maze0](maze0.png)  
     maze1.txt 
+	
 	![maze1](maze1.png)  
     maze2.txt 
+	
 	![maze2](maze2.png)  
 - Fill in the code for drawMazeWithPatronus().  This function will be very short, because all you need to do is call your drawMaze() function and then draw a dot for where the patronus is.
   - **Stop and test.** Write the testDrawingPatronus() function in RunTournament.  This test function should read in a maze file and then call drawMazeWithPatronus() so it will be seen on the canvas.  Note that the maze doesn't specify where the patronus is, so you should make up some test coordinates for where it is.
