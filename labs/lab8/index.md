@@ -5,9 +5,9 @@ parent: Labs
 
 # CS 142 Lab 8
 
-## The snake game
+## backtracking
 
-You'll investigate and design a classic Snake game, where a player controls a snake on a 2D grid as it seeks to eat items to become bigger!  This will help you improve your ability to make design choices in your programming, use/practice with ArrayLists and Strings, and practice with instantiating objects and calling instance methods on them.
+In this lab, you’ll explore the concept of backtracking! You’ll learn what backtracking is, evaluate how it could be implemented programmatically, and begin to think about it as an algorithm.
 
 ### Getting started
 
