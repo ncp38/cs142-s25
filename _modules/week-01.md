@@ -162,25 +162,16 @@ Fri, Mar 21
 : [**Slides**](lectures/recursion/day4-binsearch-slides.pdf){: .label-button } 
 
 Mon, Mar 24
-: **Practice with Recursion**  
-  [Recursion Problem handout](lectures/recursion/RecursionPracticeProblems.pdf)
+: **Binary Search II**  
 : **Homework**{: .label .label-hw } [**Homework 3**](homework/hw3) (due Tue, Apr 1)
 : **Project**{: .label .label-proj } [**Project 4**](projects/proj4) (due Mon, Apr 7)
 
 Wed, Mar 26
 : **Lab**{: .label .label-lab } [**Lab 8**](labs/lab8/) (due Fri, Mar 28 at 5:00 PM)
 
-<!---: **ArrayLists, Strings, and File Reading**  
-  [String handout](lectures/arraylists-str/strings-handout.pdf),
-  [ArrayList handout](lectures/arraylists-str/arraylists-handout.pdf),
-  [Practice problems](lectures/arraylists-str/practice.pdf)
-  
-   : **ArrayLists, Strings, and File Reading**  
-  Continue practice from Wednesday.
-: **Reading**{: .label .label-reading} Liang 11.11 (ArrayLists), 4.4 and 10.10 (strings).--->
-
 Fri, Mar 28
-Flex Day
+: **Practice with Recursion**  
+  [Recursion Problem handout](lectures/recursion/RecursionPracticeProblems.pdf)
 
 Mon, Mar 31
 : **Inheritance I**  
