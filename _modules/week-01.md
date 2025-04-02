@@ -179,20 +179,21 @@ Mon, Mar 31
 : **Reading**{: .label .label-reading} Liang 11.1-11.2 (inheritance). 
 
 Wed, Apr 2
+: **Lab**{: .label .label-lab } [**Lab 9**](labs/lab9/) (due Fri, Apr 4 at 5:00 PM)
+
+
+Fri, Apr 4
 : **Inheritance II**
 :  [Inheritance II handout](lectures/inheritance/inheritance-handout-2.pdf) 
 : [**Slides**](lectures/inheritance/day2-inherit-slides.pdf){: .label-button } 
 
-Fri, Apr 4
+Mon, Apr 7
 : **Polymorphism I**  
 : **Reading**{: .label .label-reading} Liang 11.7-11.9 (polymorphism). 
-
-Mon, Apr 7
-: **Polymorphism Continued**  
 :  [Midterm II Study Guide](lectures/examPrep/exam2-prac.pdf) 
 
 Wed, Apr 9
-: **Lab**{: .label .label-lab } [**Lab 9**](labs/lab9/) (due Fri, Apr 11 at 5:00 PM)
+: **Polymorphism Continued**  
 : **Project**{: .label .label-proj } [**Project 5**](projects/proj5) (due Mon, Apr 21)
 
 Fri, Apr 11
