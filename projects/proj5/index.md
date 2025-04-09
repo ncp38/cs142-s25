@@ -28,7 +28,7 @@ Your browser does not support the video tag.
 You can download the starter code for this assignment by creating a new IntelliJ project from version control (VCS) and using the following URL:
 
 ```
-https://github.com/ncp38/cs142-s24-inclass
+https://github.com/ncp38/cs142-s25-inclass
 ```
 
 ## Concepts in this program
@@ -49,7 +49,7 @@ Similarly for the DanceStep class, a DanceStep variable may only be set to one o
 
 The DancingBug class is the base class from which all dancing bugs must derive.  Note that a DancingBug has a location (row & column), a direction the bug is facing, and a color.  (Note that colors in this project are just strings, and should be one of the colors you are given the image files for: red, blue, green, gray, pink, orange, brown, or purple).
 
-Pay special attention to the `step()` method in DancingBug.  It is marked as `abstract`, which we know means that all classes that inherit from DancingBug must write this method.  The `step()` method must perform *one* step of a dance, probably by calling the `doStep()` method with the name of the dance step desired.  In particular, you should probably *not* have a bug take multiple dance steps inside the `step()` method, only because those steps will be collapsed into a single step in the graphical output.
+Pay special attention to the `step()` method in DancingBug.  It is marked as `abstract`, which means that all classes that inherit from DancingBug must write this method.  The `step()` method must perform *one* step of a dance, probably by calling the `doStep()` method with the name of the dance step desired.  In particular, you should probably *not* have a bug take multiple dance steps inside the `step()` method, only because those steps will be collapsed into a single step in the graphical output.
 
 ### The `DanceFloor` class
 
@@ -151,7 +151,7 @@ A SquareBug is a specialization of a RoutineBug: a SquareBug always does a speci
 
 ### LeaderBug
 
-You'll need to enable some bugs to *lead* other bugs (to give the other bugs directions about what dance steps to do). But you'll want multiple different kinds of bugs to be able to lead. As such, we have provided you with a `LeaderBug` **interface** that other classes can **implement**.
+You'll need to enable some bugs to *lead* other bugs (to give the other bugs directions about what dance steps to do). But you'll want multiple different kinds of bugs to be able to lead. As such, I have provided you with a `LeaderBug` **interface** that other classes can **implement**.
 
    Remember that interfaces only have abstract methods --- all the method bodies are left unspecified.  And just like abstract classes, any class that *implements* an interface must define those methods.  You're specifying that all `LeaderBug`s are able to perform certain actions (methods)---the interface describes what those functions are.
 

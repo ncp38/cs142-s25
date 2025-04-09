@@ -193,11 +193,11 @@ Mon, Apr 7
 :  [Midterm II Study Guide](lectures/examPrep/exam2-prac.pdf) 
 
 Wed, Apr 9
-: **Polymorphism Continued**  
+: **Lab**{: .label .label-lab } [**Lab 10**](labs/lab10/) (due Fri, Apr 11 at 5:00 PM) 
 : **Project**{: .label .label-proj } [**Project 5**](projects/proj5) (due Mon, Apr 21)
 
 Fri, Apr 11
-: **Abstract Classes & Band in a Box**
+: **Polymorphism Continued** 
 
 Mon, Apr 14
 : **Review**  
@@ -211,12 +211,12 @@ Fri, Apr 18
 
 
 Mon, Apr 21
+: **Abstract Classes & Band in a Box**
+
+Wed, Apr 23
 : **Interfaces** 
 : **Reading**{: .label .label-reading} Liang 11.5-11.6 (interfaces). 
 <!---: Consider **Project**{: .label .label-proj } [**Project 6**](projects/proj6) (due Sun, Apr 28)--->
-
-Wed, Apr 23
-: **Lab**{: .label .label-lab } [**Lab 10**](labs/lab10/) (due Fri, Apr 25 at 5:00 PM)
 
 Fri, Apr 25
 : **Big O** 
