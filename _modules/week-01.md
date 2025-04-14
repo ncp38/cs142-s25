@@ -202,7 +202,7 @@ Fri, Apr 11
 Mon, Apr 14
 : **Review**  
 [Midterm II Study Guide Solutions](lectures/examPrep/exam2-prac-solutions.pdf)
-: [**Extra Exam Practice Problems**](lectures/examPrep/extraResources.txt){: .label-button }
+: [**Extra Exam Practice Problems**](lectures/examPrep/extraResourcesExam2.txt){: .label-button }
 
 Wed, Apr 16
 : **Exam II**{: .label .label-exam }
