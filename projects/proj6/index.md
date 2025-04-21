@@ -27,7 +27,7 @@ You may also work with a partner for this project if you desire.
 You can download the starter code for this assignment by creating a new IntelliJ project from version control (VCS) and using the following URL:
 
 ```
-https://github.com/ncp38/cs142-s24-inclass
+https://github.com/ncp38/cs142-s25-inclass
 ```
 
 ## Concepts in this program
@@ -101,7 +101,7 @@ First, **read through all of the assignment carefully**. Because this is a freef
 
 ### Guidelines
 
-Below, I specify exactly what you need to do get a "baseline" grade of A, B, or C.  Completing the requirements for that particular baseline grade will earn you that grade, provided that you do all the *other* things required for programs, such as proper documentation/comments, good use of object-oriented design, etc.  Excellent work will give you up to 4 additional points, but will not move you to the next letter grade boundary.  In other words, if you complete the guidelines for a "B" project, you will earn a baseline score of 85 points, plus up to 4 more for good object oriented design and programming choices, but you cannot earn a higher grade than 89.
+Below, I specify exactly what you need to do get a "baseline" grade of A, B, or C.  Completing the requirements for that particular baseline grade will earn you that grade, provided that you do all the *other* things required for programs, such as proper documentation/comments, good use of object-oriented design, etc.  Excellent work will give you up to 4 additional points, but will not move you to the next letter grade boundary.  In other words, if you complete the guidelines for a "B" project, you will earn a baseline score of 85 points, plus up to 4 more for good object oriented design, creativity, or extra features, but you cannot earn a higher grade than 89.
 
 - For a baseline grade of "C" (a 75), you must:
   - Implement the alarm clock game so that
@@ -163,7 +163,7 @@ Your browser does not support the video tag.
 
 - For the "B" game:
   - Try keeping an ArrayList of the `GameObjects` that are scrolling by.  You can move them a few pixels to the left each time through the game loop in `runGame()`. You can also loop over the ArrayList to check if any of them overlap with the player object, at which point they should disappear (remove them from the ArrayList or move them back to the right edge of the screen).
-  - When you have images that scroll off the screen, you should remove them from the game if they will never appear again.  For instance, when images scroll off the left side, you can detect when they are no longer visible, and either remove them from the ArrayList entirely, or move them back to the right side of the screen so they will scroll by again.  What you *don't* want to do is create more and more images forever, because this will eventually slow the game down.  Basically you want the ArrayList to always have a fixed number of objects in it.
+  - When you have images that scroll off the screen, you should remove them from the game if they will never appear again.  For instance, when images scroll off the left side, you can detect when they are no longer visible, and either remove them from the ArrayList entirely, or move them back to the right side of the screen so they will scroll by again.  What you *don't* want to do is create more and more images forever, because this will eventually slow the game down.  Basically you want the ArrayList to always have a reasonable number of objects in it.
   
 - You can find plenty of images online to use in your game.  You can also use emoji images (these work well because they are small sizes) at [Emojipedia](https://emojipedia.org/). 
 Google Image Search also works well using the term "icon," like "snowman icon" or "wizard icon."   You can also use Google Image search and under "Tools," pick "Clip Art."  But truly any image will work fine.
@@ -174,8 +174,7 @@ Google Image Search also works well using the term "icon," like "snowman icon" o
 
 **Note that you need to turn in all your files for this project!**
 
-Through Canvas, turn in *all* your `.java` files and *all* your image files.  If it's easier, you may upload a zip file with 
-all the files. 
+Through Canvas, turn in *all* your **`.java` files** and *all* **your image files**.  If it's easier, you may upload a zip file with all the files. 
 
 - You should use [good programming style](../../coding-style) when writing your program.
   All other style guidelines, including proper indentation and comments, should be followed.
@@ -204,10 +203,5 @@ Feel free to put this in your own words, but remember that how you describe your
 3. What bugs and conceptual difficulties did you encounter? How did you overcome them? What did you learn?
 4. Describe whatever help (if any) that you received. Don’t include readings, lectures, and exercises, but do include any help from other sources, such as websites or people (including classmates and friends) and attribute them by name.
 5. Describe any serious problems you encountered while writing the program.
-6. Did you do any of the challenges (see below)? If so, explain what you did.
+6. Did you do anything that you think might recieve challenge bonus points? If so, explain what you did.  (Another way to look at this question is what features set your game apart?)
 7. List any other feedback you have. Feel free to provide any feedback on how much you learned from doing the assignment, and whether you enjoyed doing it.
-
-## Alternative projects
-
-If you don't like the idea of creating a game, talk to me and suggest an alternative project, and we'll work out what you need to do
-to have it substitute for this project.
