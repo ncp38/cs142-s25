@@ -215,22 +215,22 @@ Mon, Apr 21
 : **Abstract Classes & Band in a Box**
 
 Wed, Apr 23
-: **Interfaces** 
-: **Reading**{: .label .label-reading} Liang 11.5-11.6 (interfaces). 
-<!---: Consider **Project**{: .label .label-proj } [**Project 6**](projects/proj6) (due Sun, Apr 28)--->
+ : **Lab**{: .label .label-lab } [**Lab 11**](labs/lab11/) (due Fri, Apr 23 at 5:00 PM) 
+
 
 Fri, Apr 25
+: **Interfaces**
+: **Project**{: .label .label-proj } [**Project 6**](projects/proj6) (due Sun, May 7)
+: **Reading**{: .label .label-reading} Liang 11.5-11.6 (interfaces). 
+
+Mon, Apr 28
 : **Big O** 
   How computer scientists measure how fast algorithms run. 
 : [Final Study Guide](lectures/examPrep/final-prac-problems-s25.pdf) 
 : [Big O handout](lectures/big-oh/bigoh-handout.pdf)
-: **Project**{: .label .label-proj } [**Project 6**](projects/proj6) (due Sun, May 7)
-
-Mon, Apr 28
-: **Big O, Part 2**  
 
 Wed, Apr 30
-Flex day
+: **Final Review and Big O, Part 2** 
 
 Fri, May 2
 : Final Review!!

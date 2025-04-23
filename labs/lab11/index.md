@@ -3,11 +3,11 @@ title: Lab 11
 parent: Labs
 ---
 
-# CS 142 Lab 11 - The One Where You Learn How To Make Money With Math (but, no, please don't try this at home!)
+# CS 142 Lab 11
 
-## Blackjack and Programming with Object-Oriented Programming
+## Design and Programming with Object-Oriented Programming
 
-In this lab, you'll work with functions related to playing a game of blackjack!  When you finish, you'll have explored new elements of object-oriented programming, including enums and interfaces, as well as other standard OOP concepts.
+In this lab, you will practice using polymorphism and test the limits of polymorphic design.  You'll work through a real-life example of how polymorphism can be used to help us solve programming problems (and can make your own object-oriented quizzes while you're at it!).  
 
 ### Getting started
 
