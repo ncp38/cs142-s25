@@ -220,7 +220,7 @@ Wed, Apr 23
 
 Fri, Apr 25
 : **Interfaces**
-: **Project**{: .label .label-proj } [**Project 6**](projects/proj6) (due Sun, May 7)
+: **Project**{: .label .label-proj } [**Project 6**](projects/proj6) (due Wed, May 7)
 : **Reading**{: .label .label-reading} Liang 11.5-11.6 (interfaces). 
 
 Mon, Apr 28
