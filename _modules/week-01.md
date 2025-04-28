@@ -226,6 +226,7 @@ Fri, Apr 25
 Mon, Apr 28
 : **Big O** 
   How computer scientists measure how fast algorithms run. 
+: [**Slides**](lectures/big-oh/big-oh-slides.pptx){: .label-button }  
 : [Final Study Guide](lectures/examPrep/final-prac-problems-s25.pdf) 
 : [Big O handout](lectures/big-oh/bigoh-handout.pdf)
 
