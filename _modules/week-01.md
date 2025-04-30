@@ -232,20 +232,4 @@ Mon, Apr 28
 
 Wed, Apr 30
 : **Final Review and Big O, Part 2** 
-
-Fri, May 2
-: Final Review!!
-<!---: [Final Solutions](lectures/examPrep/final-prac-problems-sol-s25.pdf) ---> 
-
-<!---Fri, Dec 1
-: **Lab**{: .label .label-lab } [**Lab 11**](labs/lab11/)
-
-Mon, Dec 4
-: **Big Oh**  
-  How computer scientists measure how fast algorithms run. 
-: [Big Oh handout](lectures/big-oh/bigoh-handout.pdf)---> 
- 
-<!---:  A series of lectures to watch followed by in-class work!  
-:  [Lecture 1 - Debugging with Intellij](https://rhodes.instructuremedia.com/embed/75f01cbf-69f9-4c77-aeb7-96e19c0b19fa){: .label-button } 
-:  [Lecture 2 - Design Choices](https://rhodes.instructuremedia.com/embed/c1553cb0-476d-45c3-b56c-277d4420e8da){: .label-button } 
-:  [Lecture 3 - SimpleCanvas & In-Class Work](https://rhodes.instructuremedia.com/embed/b5ee1d41-8556-4609-93ed-cade4dc2aea8){: .label-button }--->
+: [Final Solutions](lectures/examPrep/final-prac-problems-sol-s25.pdf)
